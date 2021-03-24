@@ -1,0 +1,96 @@
+table 
+{
+    margin: auto;
+}
+
+td 
+{
+    text-align: center;
+}
+
+#the_first_snowdrop
+{
+    margin-top: 20px;
+}
+
+p 
+{
+  /*background : #a89a5a;*/   
+    text-align : center;
+    font-size  : 45px;
+    font-family: 'Alice', serif;
+    color      : rgb(59, 58, 58);
+}
+
+#bytania
+{
+    margin-top : -30px; 
+    font-size  : 45px;
+    font-family: 'Alex Brush', cursive;
+    color      : rgb(68, 67, 67)
+}
+
+header .menu 
+{
+    margin-top     : -40px;
+    display        : flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding        : 0.0;
+}
+
+header .menu a 
+{
+    color          :rgb(84, 85, 85);
+    text-transform : uppercase;
+    text-decoration: none;
+}
+
+header .menu a:hover 
+{
+    color: #dd9d25;
+}
+
+td 
+{
+    padding: 25px;
+}
+
+header .banner 
+{
+    margin-top         : -30px;
+    min-height         : 100px;
+    background-color   : rgb(194, 194, 194);
+    background-size    : cover;
+    background-position: center;
+    display            : flex;
+    align-items        : center;
+    justify-content    : center;
+}
+
+button 
+{
+    background-color : transparent;
+    color            : rgb(84, 85, 85);
+    font-size        : 30px;
+  /*background-repeat: no-repeat;*/
+    border           : none;
+    cursor           : pointer;
+  /*overflow         : hidden;*/
+    outline          : none;
+}
+
+button:hover 
+{
+    color: #dd9d25;
+}
+
+.footer
+{
+    font-size: 15px;    
+}
+
+.footer:hover 
+{
+    color: #dd9d25;
+}
